@@ -1,0 +1,20 @@
+{
+  "LSTM": {
+    "model": "LSTM",
+    "accuracy": 0.6459451822548743,
+    "macro_f1": 0.568333851889744,
+    "weighted_f1": 0.6636684927673783
+  },
+  "GRU": {
+    "model": "GRU",
+    "accuracy": 0.6524441932749364,
+    "macro_f1": 0.5693707131662089,
+    "weighted_f1": 0.6697043488554284
+  },
+  "BiLSTM + Attention": {
+    "model": "BiLSTM + Attention",
+    "accuracy": 0.6685504379768296,
+    "macro_f1": 0.5931310263354562,
+    "weighted_f1": 0.6857632652746792
+  }
+}
